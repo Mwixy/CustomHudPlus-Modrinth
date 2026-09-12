@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "com.example.hudditor.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"InGameHudMixin",
+		"ExperienceBarMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

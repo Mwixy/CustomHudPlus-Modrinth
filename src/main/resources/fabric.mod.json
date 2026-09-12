@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "hudditor",
+	"version": "${version}",
+	"name": "Custom HUD+",
+	"description": "Make your Minecraft interface fully yours with 15+ fully customizable HUD elements. With Custom HUD+, you can easily place, resize, move, or hide any element on your screen, including the hotbar, health, hunger, and status bars.",
+	"authors": [
+		"olivvi_"
+	],
+	"icon": "assets/hudditor/icon.png",
+	"license": "BSD-3-Clause",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.example.hudditor.HudditorClient"
+		]
+	},
+	"mixins": [
+		"hudditor.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"fabric-api": "*",
+		"minecraft": "${minecraft_dep}",
+		"java": ">=21"
+	}
+}
